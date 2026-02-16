@@ -393,7 +393,7 @@ async function initConfig() {
         DanmakuApiBaseUrl:
           process.env.NEXT_PUBLIC_DANMU_API_BASE_URL ||
           '',
-        TVBoxEnabled: false,
+        TVBoxEnabled: true,
         TVBoxPassword: '',
       },
       UserConfig: {
